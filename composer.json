@@ -1,0 +1,17 @@
+{
+  "name": "gillbeits/fcnrpack",
+  "description": "Floor Ceiling No Rotation Algorithm",
+  "minimum-stability": "alpha",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Ivan Koretskiy",
+      "email": "gillbeits@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "FCNR": "src/"
+    }
+  }
+}
