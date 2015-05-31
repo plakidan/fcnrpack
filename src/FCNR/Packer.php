@@ -167,6 +167,18 @@ class Packer {
         return $this;
     }
 
+    /**
+     * @return array
+     */
+    public function getDimensions()
+    {
+        return [
+            $this->_getLevelsHeight(),
+            $this->maxWidth,
+            $this->maxLength
+        ];
+    }
+
     protected function _getLevelsHeight()
     {
         $height = 0;
