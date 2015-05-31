@@ -173,9 +173,9 @@ class Packer {
     public function getDimensions()
     {
         return [
+            $this->maxLength,
             $this->_getLevelsHeight(),
-            $this->maxWidth,
-            $this->maxLength
+            $this->maxWidth
         ];
     }
 
