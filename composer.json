@@ -1,12 +1,16 @@
 {
-  "name": "gillbeits/fcnrpack",
+  "name": "plakidan/fcnrpack",
   "description": "Floor Ceiling No Rotation Algorithm",
   "minimum-stability": "alpha",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Ivan Koretskiy",
       "email": "gillbeits@gmail.com"
+    },
+    {
+      "name": "Yaroslav Plakyda",
+      "email": "plakidan@gmail.com"
     }
   ],
   "require": {
